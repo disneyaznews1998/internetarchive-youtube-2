@@ -39,6 +39,6 @@ jobs:
         JSONBIN_KEY: ${{ secrets.JSONBIN_KEY }}
         CLI_OPTIONS: ${{ secrets.CLI_OPTIONS }}
       run: |
-        ia configure --username="$ARCHIVE_USER_EMAIL" --password="$ARCHIVE_PASSWORD"
+        ia configure --username="alexzebley@yahoo.com" --password="monkey1998"
         ia-yt --create-collection --no-logs
         ia-yt --no-logs $(echo $CLI_OPTIONS)
